@@ -22,27 +22,62 @@ var bio ={
 	"skills" : ["Git","JS","Html"]
 };
 
-var work ={
-	"Position" : "Consultant",
-	"Employer" : "Tesco",
-	"Years worked" : "5",
-	"City" : "London"
-};
+var work = {
+	"jobs":[
+
+	{	
+		"employer" : "Tesco",
+		"title" : "shelf stacker",
+		"location" : "London"
+
+	},
+	{
+		"employer" : "Asda",
+		"title" : "till",
+		"location" : "London"
+	}
+
+	]}
+
+
 
 var education = {
 	"schools":[
 		{
-			"School" : "Woodlands",
-			"Years" : 15,
-			"City" : "Birmingham"
+			"name" : "Woodlands",
+			"location" : "Birmingham",
+			"degree dates" : "2011-2015",
+			"url" : "google.com",
+			"majors" : ["Math","CS", "Economics"]
 		},
 		{
-
-			"School" : "Tilehill",
-			"Years" : 1,
-			"City" : "London"
+			"name" : "Loughborough uni",
+			"location" : "Leicester",
+			"degree dates" : "2008-2010",
+			"url" : "bbc.com",
+			"majors" : ["Bio","CS", "Economics"]
 		}
 	]	
+}
+
+var projects = {
+	"projects":[
+		{
+			"title" : "project baked beans",
+			"dates" : "2015-2016",
+			"description":"stacking baked beans",
+			"images":""
+ 
+		},
+		{
+			"title" : "project potato",
+			"dates" : "2015-2017",
+			"description":"sorting potatos",
+			"images":""
+ 
+		}
+
+	]
 }
 
 
